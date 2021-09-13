@@ -27,7 +27,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.example</groupId>
+            <groupId>org.example.twister1803</groupId>
             <artifactId>http-server</artifactId>
             <version>1.0</version>
         </dependency>

@@ -18,10 +18,17 @@
         <classgraph.version>4.8.115</classgraph.version>
     </properties>
 
+    <repositories>
+        <repository>
+            <id>github</id>
+            <url>https://maven.pkg.github.com/twister1803/httpFramework</url>
+        </repository>
+    </repositories>
+
     <dependencies>
         <dependency>
-            <groupId>org.example.twister1803</groupId>
-            <artifactId>httpFramework</artifactId>
+            <groupId>org.example</groupId>
+            <artifactId>http-server</artifactId>
             <version>1.0</version>
         </dependency>
         <dependency>

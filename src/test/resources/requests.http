@@ -16,7 +16,7 @@ v=16
 
 ###
 
-POST http://localhost:9999/coursar/search?q=Java PRO
+POST http://localhost:9999/courses/search?q=Java PRO
 Content-Type: application/x-www-form-urlencoded
 
 q=Java Advanced&v=16
@@ -93,7 +93,7 @@ Content-Type: application/json
   "tags": [
     "java",
     "programming"
-  ],
+  ]
 }
 --WebAppBoundary
 Content-Disposition: form-data; name="avatar"; filename="logo.png"
@@ -105,8 +105,24 @@ Content-Type: image/png
 ###
 
 GET http://localhost:9999/courses
-Username: admin
+
+###
+
+GET http://localhost:9999/courses?q=Java адвансед&v=16&s=cou rses&q=nulllll&x=serыver
 
 ###
 
 POST http://localhost:9999/courses
+Content-Type: application/x-www-form-urlencoded
+
+q=Java адвансед&v=16&s=cou rses&q=nulllll&x=serыver
+
+###
+
+POST http://localhost:9999/courses?q=Java адвансед&v=16&s=cou rses&q=nulllll&x=serыver
+Content-Type: application/x-www-form-urlencoded
+
+q=Java адвансед&v=16&s=cou rses&q=nulllll&x=serыver
+
+###
+
